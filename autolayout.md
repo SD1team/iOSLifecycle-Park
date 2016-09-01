@@ -9,16 +9,16 @@ View 들간의 상호적인 관계를 정의하는 유저 인터페이스
 
 (새 프로젝트 생성 single view application iOS app templete > storyboard 열기)  
 **storyboard 오른쪽 하단의 4가지 버튼**  
-1) Align 정렬 제약 생성 (ex. view들을 왼쪽정렬 )  
-2) Pin 공간 제약 생성 (ex. 다른 view와의 거리 제약)  
-3) Issues 레이아웃 이슈 해결  
-4) Resizing  
+1) **Align** 정렬 제약 생성 (ex. view들을 왼쪽정렬 )  
+2) **Pin** 공간 제약 생성 (ex. 다른 view와의 거리 제약)  
+3) **Issues** 레이아웃 이슈 해결  
+4) **Resizing**  
 
 AutoLayout은 control + drag를 사용  
 
-**constraints line**  
-- Orange Color Line : 부족한 제약
-- Blue Color Line : 적절한 레이아웃
+**Constraints Line Color**  
+Orange Color Line : 부족한 제약  
+Blue Color Line : 적절한 레이아웃  
   
 제약 생성 후, Interface Builder outline view 의 red arrow > 충돌이나 애매한 이슈  
 arrow 클릭 시, 이슈 목록을 볼 수 있다.  
